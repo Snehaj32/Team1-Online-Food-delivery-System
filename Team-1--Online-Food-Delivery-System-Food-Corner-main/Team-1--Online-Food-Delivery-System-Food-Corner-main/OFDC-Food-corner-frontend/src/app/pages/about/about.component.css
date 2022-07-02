@@ -1,0 +1,28 @@
+
+    .about{
+        background-image: url('../../../assets/img/bannerimg.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        height: 450px;
+        border: 1px;
+    }
+    .content{
+        font-family: cursive;
+        align-items: center;
+        color: white;
+        font-weight: bolder;
+        padding: 10px;
+        top: 19%;
+        left: 9%;
+        position: absolute;
+   
+    }
+    .paragraph{
+        font-family: cursive;
+        align-items: center;
+        padding: 1000px;
+        margin: 1.5px;
+      right:9%;
+    left: 9%;
+    }
+   

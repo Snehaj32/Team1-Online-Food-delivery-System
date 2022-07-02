@@ -1,0 +1,11 @@
+
+.Checkout{
+    padding: 4rem 1.5rem;
+}
+  
+    .Checkout-box {
+        text-align: center; 
+      max-width: 400px;
+      margin: auto;
+      text-align: center;
+    }

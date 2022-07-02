@@ -1,0 +1,22 @@
+<div class="login">
+    <div class="login-box">
+      <h2>Login</h2>
+      <form autocomplete="off" (ngSubmit)="onSubmit()">
+        <div>
+          <input type="email" name="email" id="" placeholder="Email" />
+        </div>
+        <div>
+          <input type="password" name="password" id="" placeholder="Password" />
+        </div>
+        <div class="forgot">
+          <a routerLink="/forgot-password">Forgot Password?</a>
+        </div>
+        <div>
+          <input (click)="method()" routerLink="/" type="submit" value="Login" class="login-btn" />
+        </div>
+        <div class="forgot">
+          Don't have an account? <a routerLink="/contact">Register now</a>
+        </div>
+      </form>
+    </div>
+  </div>
